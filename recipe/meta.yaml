@@ -1,5 +1,5 @@
 {% set name = "wagtail-flexible-forms" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wagtail_flexible_forms-{{ version }}.tar.gz
-  sha256: e0b44f5cebca39fbf668969e9523e8899b4d6aa1ffda81347b201c0ab0d715dd
+  sha256: d03047559d074949f38ccb22fdecf66023cadfcba79cf278f3c87c4f52f6b658
 
 build:
   noarch: python
