@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - wagtail >=3.0,<7
+    - wagtail >=6.0,<8.0
 
 test:
   imports:
